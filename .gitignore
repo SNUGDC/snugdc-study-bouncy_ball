@@ -1,0 +1,21 @@
+/Binary/
+/Library/
+/Temp/
+/Obj/
+
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+
+*.*~
+*.swp
+
+#platform
+
+#platform OSX
+.DS_STORE

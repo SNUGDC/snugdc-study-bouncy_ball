@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXUAD4D7QAqgBgamauChDmhGJnvC1VHLBuml1hAjh0wdw8mO0BAAUkPMWxy7CAHDDc7omlkvi+SHaA0oEehedj0w9IWALAI7KrcBQAA
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="25" height="15">
+  <object name="Dagger" x="320" y="192" width="32" height="96"/>
+  <object name="Dagger" x="512" y="192" width="32" height="96"/>
+  <object name="Dagger" x="608" y="192" width="32" height="96"/>
+  <object name="Kinematic" type="Kinematic" x="96" y="448" width="32" height="32"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXDAagAsS+UxgZU6eAGBSLdQk+A7hZFOtmrQIRb0IE8VE4BixofajmMSLdQM+4USHALIbUgoEShe4h1Cyl6QJgDimnhJhhWQOOjY2x6iaEHAxiKbiE1vZCaRkhJ69jcgmyXOA43kJpmAXgsbYc0CAAA
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="35" height="15">
+  <object name="Blink" x="384" y="416" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Blink" x="320" y="384" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Blink" x="64" y="256" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="3"/>
+   </properties>
+  </object>
+  <object name="Blink" x="256" y="352" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Blink" x="128" y="288" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="2.5"/>
+   </properties>
+  </object>
+  <object name="Blink" x="192" y="320" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="2"/>
+   </properties>
+  </object>
+  <object name="Blink" x="864" y="288" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Blink" x="928" y="288" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Blink" x="1056" y="288" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="2"/>
+   </properties>
+  </object>
+  <object name="Blink" x="992" y="288" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1.5"/>
+    <property name="waittime" value="1.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15" opacity="0.9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgYGDwYaAfMIHS5nS0k1wQjcZnh2JqAh0qmzdQwBeNb4hFDSV+NQBiIyS+AhY1KkgYmx5cZhEDYP5TQaPR/Y2unljAjoTR7aAGQDeLWmarU9kOQmmEXDv0iVSHnH5w2QHyM3J8YQMxSGxTILYgwl4zJL48HrNhAD2s5JHcBwIABw8iUtwFAAA=
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object name="HotBrick" x="288" y="384" width="32" height="32">
+   <properties>
+    <property name="velocity" value="13.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

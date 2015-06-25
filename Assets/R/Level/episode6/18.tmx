@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXEAh8qm+dLgKYnUCVAIwNFGrlBgUx97GgYBlRxsEcB6UCBRubiiiNC9sHiWgUJM6DRKlj0qZCBCenDBtDdMxwBO2ElJAElHOLI5aEKDja9ALKf0d0SQwP7iDETvdxDLw+JiSdsenCZAwAfl9FbNAgAAA==
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="35" height="15">
+  <object name="Blink" x="800" y="224" width="32" height="32">
+   <properties>
+    <property name="showtime" value="6"/>
+   </properties>
+  </object>
+  <object name="Blink" x="864" y="192" width="32" height="32">
+   <properties>
+    <property name="showtime" value="6"/>
+   </properties>
+  </object>
+  <object name="Blink" x="928" y="160" width="32" height="32">
+   <properties>
+    <property name="showtime" value="6"/>
+   </properties>
+  </object>
+  <object name="Blink" x="992" y="128" width="32" height="32">
+   <properties>
+    <property name="showtime" value="6"/>
+   </properties>
+  </object>
+  <object name="Star" x="800" y="416" width="32" height="32">
+   <properties>
+    <property name="size" value="16"/>
+   </properties>
+  </object>
+  <object name="Star" x="864" y="416" width="32" height="32">
+   <properties>
+    <property name="size" value="16"/>
+   </properties>
+  </object>
+  <object name="Star" x="928" y="416" width="32" height="32">
+   <properties>
+    <property name="size" value="16"/>
+   </properties>
+  </object>
+  <object name="Star" x="992" y="416" width="32" height="32">
+   <properties>
+    <property name="size" value="16"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

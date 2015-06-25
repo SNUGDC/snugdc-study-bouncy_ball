@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="480"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9VTWwoDIQz0szfYT9PF/vYk9QTt/c+xSA2EMFGzD2EHgmImO2OyhvDHJ9wPaZLOt65ZxGwvDxEI0hPy8gO8t0Pfw9U6pHJ8h5c6SwMR1L6lL2fFM0R1nu96gP6TAr6/5cWqG8Hq8CE1rfPcyHtx5B2d7WXvO6KDXsjJZz+z+tKD1bczvNDOOoSr+vIU+wjyqD9JrYzciVEgTWtOxcOivBRu7EThUOVvp56vpjQIAAA=
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity">
+  <object name="Asteroid" x="928" y="224" width="32" height="32">
+   <properties>
+    <property name="speed" value="3.3"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="832" y="224" width="32" height="32">
+   <properties>
+    <property name="speed" value="3.3"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="896" y="224" width="32" height="32">
+   <properties>
+    <property name="speed" value="3.3"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="800" y="224" width="32" height="32">
+   <properties>
+    <property name="speed" value="3.3"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="992" y="224" width="32" height="32">
+   <properties>
+    <property name="speed" value="3.3"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="960" y="224" width="32" height="32">
+   <properties>
+    <property name="speed" value="3.3"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="864" y="224" width="32" height="32">
+   <properties>
+    <property name="speed" value="3.3"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="768" y="224" width="32" height="32">
+   <properties>
+    <property name="speed" value="3.3"/>
+   </properties>
+  </object>
+  <object name="Blink" x="480" y="352" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="2"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Blink" x="448" y="160" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="2"/>
+    <property name="waittime" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Blink" x="512" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="2"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Blink" x="480" y="192" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="2"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Blink" x="512" y="320" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="2"/>
+    <property name="waittime" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Blink" x="448" y="384" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="2"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Kinematic" type="Kinematic" x="768" y="96" width="32" height="32">
+   <properties>
+    <property name="size" value="2"/>
+   </properties>
+  </object>
+  <object name="Star" x="608" y="433" width="32" height="32"/>
+ </objectgroup>
+</map>

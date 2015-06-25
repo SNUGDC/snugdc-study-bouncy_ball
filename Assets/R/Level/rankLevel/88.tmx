@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGB7AZwDs9AViNiBWgWI2KIYBVTLMRNavi2Qusp2+ZJhLir3IdhEC0USaDwsrXHL4gAIDJBwIAVE8dhADiLEDXZ0CHnXyePT6IWFsAJ8/1PDIwexAx6QCbG7XIkKfIg7xGDLcQCpQIEGtKK0cMYgAAB5KvHHcBQAA
+  </data>
+ </layer>
+ <objectgroup color="#f9f8ff" name="Object Layer 1" width="25" height="15">
+  <object name="Blink" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+   </properties>
+  </object>
+  <object name="Blink" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="576" y="64" width="32" height="32">
+   <properties>
+    <property name="speed" value="0.4"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

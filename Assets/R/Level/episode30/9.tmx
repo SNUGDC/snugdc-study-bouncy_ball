@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="480"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACzNiQAVGDJQBIxz0UAZ2ZOgxh9KmBNTJQ2keMuwgFphQoNeHAr3qFOglFcjjkeNBwjAQjUMNMSAeiZ0MxJk41KkQaR4lgJbpBgSkoXZII2FSwopY4IuEkUECDvX6ZJiPi28GpbNJNBMZSBOQx2W2Jgl24AtzAyxiAJmurhHcBQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Missile" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="speed" value="14"/>
+    <property name="time" value="0"/>
+   </properties>
+  </object>
+  <object name="Monster" x="672" y="64" width="32" height="32">
+   <properties>
+    <property name="speed" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

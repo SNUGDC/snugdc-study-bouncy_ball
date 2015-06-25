@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgwA/YCMgPd+BDovp4CuyiVVizIWFCdsuTYb4KFBPjfphaWpmPrAcE1JH0EoNBwBcJE7LDAIhFGXD7CZebke1QYSAvXJDtiCagBmS2CRF24DIHZIcpEW6RJ5GNbgc2oE6EvcQCepRnxNqhToJadHOJ0QcA+3XvttwFAAA=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Blink" type="Brick" x="128" y="448" width="32" height="32">
+   <properties>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Blink" type="Brick" x="320" y="448" width="32" height="32">
+   <properties>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Blink" type="Brick" x="224" y="448" width="32" height="32">
+   <properties>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Missile" x="544" y="352" width="32" height="32">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="speed" value="12"/>
+   </properties>
+  </object>
+  <object name="Missile" x="480" y="352" width="32" height="32">
+   <properties>
+    <property name="direction" value="4"/>
+    <property name="speed" value="10"/>
+    <property name="time" value="0.75"/>
+   </properties>
+  </object>
+  <object name="Missile" x="320" y="192" width="32" height="32">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="time" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="480"/>
+ </tileset>
+ <layer name="map" width="25" height="15" opacity="0.95">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NggABTBuKAChrfA43GBkSQsCKJdpjgUedDhFnE2EFtoAQ1H58dylCaFQkjgywsetSQ2NpQGpsdILNFCDsTL0B2D7IdCkSabUiifaSqp9R/5AIRNEwPoERl83KobN5wBrjSpR+JbFwAV3kYw4CaB4lhowMAeYIo2dwFAAA=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="HotBrick" x="160" y="224" width="32" height="32">
+   <properties>
+    <property name="velocity" value="8.7"/>
+   </properties>
+  </object>
+  <object name="HotBrick" x="192" y="224" width="32" height="32">
+   <properties>
+    <property name="velocity" value="8.7"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="320" y="320" width="32" height="32">
+   <properties>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="448" y="320" width="32" height="32">
+   <properties>
+    <property name="speed" value="0.8"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="544" y="320" width="32" height="32">
+   <properties>
+    <property name="speed" value="0.7"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

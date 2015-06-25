@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGBnAiAZm6lEoTymIRGJH0dguXHbT296RBHzobJ8vBWx8gIVK7MECIpDY4QTEB9L9AC8GjCrcBQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Kinematic" x="192" y="96" width="32" height="32">
+   <properties>
+    <property name="size" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

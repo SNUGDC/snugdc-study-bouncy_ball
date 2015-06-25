@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGN7AB4jNKdAvjUM8mgIzY4E4GYnPg0MdDxLNg6aOB+o2aRxsHizi6ABZPbq9GXjcRQ0w0HZgC1NK7MAlZ0IDO/SR2PZIaigFuMLKFohV0eTMSDDXD4rx2QESU0OTiyPBfBjAlV9hdmCLczsyzNfHphAH0CRCDbIdMPeZEmk+rrgHAJxw5O3cBQAA
+  </data>
+ </layer>
+ <objectgroup color="#ffffff" name="Object Layer 1" width="25" height="15">
+  <object name="RedBlink" x="416" y="96" width="32" height="32">
+   <properties>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="512" y="96" width="32" height="32">
+   <properties>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="320" y="96" width="32" height="32"/>
+  <object name="RedBlink" x="416" y="96" width="32" height="32">
+   <properties>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

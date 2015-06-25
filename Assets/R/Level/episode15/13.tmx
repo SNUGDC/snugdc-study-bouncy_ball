@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoD5QoYGZAwFMB9oBgwQQE59qNHaDNgF5HyrZ40ekOjMGzHCB8eWRxHSx6DUnwT0qWDAIiAFxDB59+ljcBQPsSGxcZsD0q6LZi+4OdD6627WAWB2PP/DpJwWoE6GGHuUSMXYQm8awmWuCxGZnQMQlOxY+ADI/bcrcBQAA
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object name="HotBrick" x="640" y="416" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.2"/>
+   </properties>
+  </object>
+  <object name="HotBrick" x="672" y="416" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.2"/>
+    <property name="waittime" value="0.4"/>
+   </properties>
+  </object>
+  <object name="HotBrick" x="704" y="416" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.2"/>
+    <property name="waittime" value="0.8"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGB6Amwx1KiSYr0QFO1SwYFx6uXFgQnagA3x2YAMwOQUsdoCwIg471NHsAumNIWAHPreghw8uf4CwKpTWJMJcfICY9EBu+qHEDnUoGzk85XGw0e1A1o9sNrn+gIU5Pj0geV8sduBL99gAujofKK2AZA8ISCFhXxx6ibWDGKBEhh3o+UMBSY4QJhXA4ggAib/HeNwFAAA=
+  </data>
+ </layer>
+ <objectgroup color="#ff0000" name="physicsEntity" width="25" height="15"/>
+</map>

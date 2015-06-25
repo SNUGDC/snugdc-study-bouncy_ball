@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC61TOQ7DMAzTmh90S4fM9dDzB13qF6T/f0dtQEIJgXastAQIK4ojyqYiIrIIRys/ghepdYHntfD+o4bH0uEWroU3kp+A0V6fg/uive7V8PGsjNZCHOXb99TQq3goozhDrVSYdWV3ZT7tgdXKbo36sW5oJI0T5EY1zKveGWut7Ig6lcznN6nD5tJiptH7tvKgHJl1vCv0vHe/UaDn/gz/wtzIn+Ad7mnFDDYH+H8I5D5MAEpO3AUAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Kinematic" x="416" y="448" width="32" height="32">
+   <properties>
+    <property name="size" value="2"/>
+    <property name="speed" value="2.75"/>
+   </properties>
+  </object>
+  <object name="Missile" x="0" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="time" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGB6AB4qtaGg2CEfSwHwQUIOaDwO09AcMmNLADjM0PiF/8KBhaSLt4SGsBA58oHQGCXrIBcS6n1SAHk7yDITDACavSaT52Pjo9mLD6CCOCPOxifkR4MOAA5LeWCC2w2E+zI4kHHK4gD0QGwCxLZIZqXjUmwCxOQEzsbnPjgQ3kZLeYQAAQMc7g9wFAAA=
+  </data>
+ </layer>
+ <objectgroup color="#ffffff" name="Object Layer 1" width="25" height="15">
+  <object name="HotBrick" x="672" y="288" width="32" height="32">
+   <properties>
+    <property name="direction" value="4"/>
+    <property name="velocity" value="18"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

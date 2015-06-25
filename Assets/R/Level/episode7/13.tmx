@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC1NhgAAfKK2ChukJ0O2jt/3odseg8QcKgOzmgGJ8bvGlk1uw8WF2xzDQD+BySwwDeekYWW0MHjFS3AID+PQqIbHlscgTI6aAZjfIPnEohqUfXICW6QZXuKDHDwwPhFtwgeHslsFStoGAAhoflm5xgYFwryIaH1bGMDDQ1j2EylPkegGfGDUAzFwAeM/1EDQIAAA=
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="35" height="15">
+  <object name="Asteroid" x="736" y="256" width="32" height="32"/>
+  <object name="Kinematic" type="Kinematic" x="416" y="448" width="32" height="32">
+   <properties>
+    <property name="size" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

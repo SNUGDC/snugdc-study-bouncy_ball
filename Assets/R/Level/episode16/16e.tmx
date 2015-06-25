@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoA/QGwB7TNDkrNH45kDMBmWr4DFTlFJHQc3XxyPPhkcOG9DBI+eLBSsRME8diGNwyKGLw/yBL8ysCNhHDWDIQL90BUoDKniwD5p6ZDlqAHRz1KloNrIdbFBMqftJTc+kAlMS1EZTyU6YORZQjAy0sajHFQZmeOxgQ6LZ0MRAwBKfA9EAAAUlDDHcBQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15" opacity="0.9">
+  <object name="Kinematic" x="32" y="96" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Kinematic" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Blink" x="704" y="416" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="2"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Blink" x="640" y="416" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

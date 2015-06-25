@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UTQqDQAyFcwBv4KJdCIIgpXRT6hX0BkLvf4sSmMAj5McZkG588HBGQuYjyQzRJU9d4qVY9n3xWSw1GorPUMSywfqbsHySc6SWWPOIZVZ77In8t1iWhMNSxsJ6qf2q4pBlb2DIWOYkxmOxYsRDsCayczwDXn2nkMWqyZF7ELFE86K1A8styfU21lsFC0vPC2qkeF46+HquYZF47LFllq5NzVvlza5V7xb9mwX7xLnuB5i8t47fy6mBAWeD+/loyIH6Adv6OJM0CAAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="35" height="15">
+  <object name="Blink" x="832" y="416" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Blink" x="768" y="416" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Blink" x="896" y="416" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="3"/>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="192" y="160" width="32" height="32"/>
+  <object name="Asteroid" x="224" y="160" width="32" height="32"/>
+  <object name="Asteroid" x="672" y="64" width="32" height="32"/>
+  <object name="Asteroid" x="768" y="64" width="32" height="32"/>
+ </objectgroup>
+</map>

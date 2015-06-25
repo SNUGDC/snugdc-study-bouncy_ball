@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAUDBXyAmAeKVaBiIHY0jezTR7JHHo0mBSgBsTQUw9wP46MDkJw1keZKM+A2B9k8XCAIjYYBXSS9vjiwOVSNCZod+NyCDmwYEOFBCIOAOglmkwNM8chhCytYONEq/SEDUFipIOHBApDjxAxK40pX+IAiGj+GAXteI5RG0M2MIWAvcnoFAPOuTpzcBQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Missile" x="32" y="224" width="32" height="32">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="speed" value="1"/>
+    <property name="time" value="0"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="384" y="320" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="3"/>
+    <property name="waittime" value="0.3"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="416" y="288" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="3"/>
+    <property name="waittime" value="0.6"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="448" y="288" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="3"/>
+    <property name="waittime" value="0.9"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="480" y="320" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="3"/>
+    <property name="waittime" value="1.2"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="512" y="352" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="3"/>
+    <property name="waittime" value="1.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

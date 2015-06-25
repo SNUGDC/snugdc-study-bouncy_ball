@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgIA2okKieHEArO/SobIcZAXlah5UPmh08VDTbCYk92OIcmz9jkNi6SGx5JD3Y7NDDIoYO/IDYEogVcMhLI7Hx+SOGgJghEW7Rh9oRj0NeHouYKhHmogNS41yNRLORsTR+5XAAUocehrjcCRP3JaAOG7DAY0cMmrg5lB1Poh2g9KjOgEiXyHp1cNgN4ytA2YTSLgCl1dJO3AUAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Blink" x="704" y="160" width="32" height="32"/>
+  <object name="Blink" x="672" y="128" width="32" height="32"/>
+  <object name="Blink" x="608" y="160" width="32" height="32"/>
+  <object name="Asteroid" x="448" y="64" width="32" height="32"/>
+  <object name="Kinematic" x="544" y="320" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+   </properties>
+  </object>
+  <object name="Blink" x="544" y="160" width="32" height="32"/>
+ </objectgroup>
+</map>

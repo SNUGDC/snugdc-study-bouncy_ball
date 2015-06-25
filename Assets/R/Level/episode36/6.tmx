@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="7">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="480"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGPzAFwsbWcyPCnaoIrEFGBgW+EPoBJgYIxXsAIEIHOJRJJoDciMSOwGXGnR/kAvQzYjEoS6cOLPgQAWPHUjiJPsDqPZAKZr52OwgJT58CNsJxrjSCjn+iCZWIZGAEQnDQAkd7MXlFgEkzMCAGn4KNLBPjQHV78jpmJi0S4wd+NKAHhXswAYMsIgBANkRM57cBQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="3" name="Kinematic" x="640" y="416" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

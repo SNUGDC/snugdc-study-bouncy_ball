@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+NhoC7Qh9JGSGKmWNRFEjAnijrOAbvHDwvWx6cJCvTwyOkgsUHmGaHJg9xvTrwz4UAFiNOBWBXKxgZ80OzGBxRw2IGM0UE8Gp+QHdgADxHyPEjqSLVDj4AdEWj8cBLtQA8DbACb/cSkKxhATzPIQBpKG+KQDyfBHmSgRqQ6MyLU4IqDDCidhEaTAkDhiC1tEkpXuEAaAXl88a1Ipp3oAJvbTYjUq07APHSzQXEDAMeGwLTcBQAA
+  </data>
+ </layer>
+ <objectgroup color="#ffffff" name="Object Layer 1" width="25" height="15">
+  <object name="Kinematic" x="768" y="224" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+   </properties>
+  </object>
+  <object name="Kinematic" x="672" y="288" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

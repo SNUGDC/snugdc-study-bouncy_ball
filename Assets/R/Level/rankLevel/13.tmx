@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAW4gM9AO4BMoITEZkTC2IAAkWLoAGYesWpB6uShbBhNjD5FItQhuwcGiLUDGQig0djskEfDpNoBAkoMiDDBZgfMDaTYgcvt2PQii5FiB7nxQawdAljU4IsT5HQlj6SfEUmeFBobQI5zmN99yaSR8yU9AABErOUe3AUAAA==
+  </data>
+ </layer>
+ <objectgroup color="#ffffff" name="Object Layer 1" width="25" height="15">
+  <object name="Hint" x="320" y="192" width="32" height="32">
+   <properties>
+    <property name="Text" value="Safe? Faster?"/>
+   </properties>
+  </object>
+  <object name="Hint" x="320" y="224" width="32" height="32">
+   <properties>
+    <property name="Text" value="You must be selected."/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

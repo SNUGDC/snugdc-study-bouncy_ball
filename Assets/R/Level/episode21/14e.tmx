@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgIA6okClHCqDEDisi7WClwA5i/UmMP6KJ0ItLDbF2qGKRM0PTq4qDDTMnnoAdamS4j1h1MDl5IFYg044YJHXuaHImUDlDAm4ghPXx2IHLnTFYxDwIiGEzxx2HnA4WtcQAmDnmQOyDxQ5TAvr9kGhkjCxHST5nJcIOVjRzWBlQ8z1yuoIBBSzq0e1BNh/dDnRATNqEmWOAg03IHEJ2AABnCXbi3AUAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Missile" x="640" y="448" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="0.8"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="608" y="224" width="32" height="32">
+   <properties>
+    <property name="showtime" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

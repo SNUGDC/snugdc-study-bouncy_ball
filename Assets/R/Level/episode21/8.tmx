@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjgHbAZ6AdQAbwxSLGSgM8CkYBJcCAgDwAexrN3dwFAAA=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="RedBlink" x="128" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="0"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="160" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="0.4"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="192" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="0.8"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="224" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="1.2"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="1.6"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="288" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="2"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="320" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="2.4"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="352" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="2.8"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="448" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="4"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="480" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="4.4"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="384" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="3.2"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="416" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="3.6"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="640" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="6.4"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="544" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="5.2"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="512" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="4.8"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="576" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="5.6"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="608" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="6"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="672" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1"/>
+    <property name="showtime" value="5"/>
+    <property name="waittime" value="6.8"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

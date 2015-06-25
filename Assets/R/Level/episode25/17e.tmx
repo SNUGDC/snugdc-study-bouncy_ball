@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMNRCMhtGBD32dMyhANBCHomEQ8EVSw4pEI2MRKEYXB+EkMtzCikfOF48ctQE+d4yCUUAOAADj43NaNAgAAA==
+  </data>
+ </layer>
+ <objectgroup color="#ffffff" name="Object Layer 1" width="35" height="15">
+  <object name="Missile" x="96" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="waittime" value="0.1"/>
+   </properties>
+  </object>
+  <object name="Missile" x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="waittime" value="0.3"/>
+   </properties>
+  </object>
+  <object name="Missile" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Missile" x="288" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="waittime" value="0.7"/>
+   </properties>
+  </object>
+  <object name="Missile" x="128" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="waittime" value="0.2"/>
+   </properties>
+  </object>
+  <object name="Missile" x="192" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="waittime" value="0.4"/>
+   </properties>
+  </object>
+  <object name="Missile" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="waittime" value="0.6"/>
+   </properties>
+  </object>
+  <object name="Missile" x="320" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="waittime" value="0.8"/>
+   </properties>
+  </object>
+  <object name="Missile" x="576" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.4"/>
+   </properties>
+  </object>
+  <object name="Missile" x="736" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.9"/>
+   </properties>
+  </object>
+  <object name="Missile" x="480" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.1"/>
+   </properties>
+  </object>
+  <object name="Missile" x="512" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.2"/>
+   </properties>
+  </object>
+  <object name="Missile" x="544" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.3"/>
+   </properties>
+  </object>
+  <object name="Missile" x="672" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.7"/>
+   </properties>
+  </object>
+  <object name="Missile" x="704" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.8"/>
+   </properties>
+  </object>
+  <object name="Missile" x="640" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.6"/>
+   </properties>
+  </object>
+  <object name="Missile" x="608" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Missile" x="672" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.7"/>
+   </properties>
+  </object>
+  <object name="Missile" x="480" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.1"/>
+   </properties>
+  </object>
+  <object name="Missile" x="576" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.4"/>
+   </properties>
+  </object>
+  <object name="Missile" x="736" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.9"/>
+   </properties>
+  </object>
+  <object name="Missile" x="512" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.2"/>
+   </properties>
+  </object>
+  <object name="Missile" x="608" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Missile" x="704" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.8"/>
+   </properties>
+  </object>
+  <object name="Missile" x="640" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.6"/>
+   </properties>
+  </object>
+  <object name="Missile" x="544" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="0.3"/>
+   </properties>
+  </object>
+  <object name="Missile" x="768" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Missile" x="768" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Missile" x="800" y="160" width="32" height="32">
+   <properties>
+    <property name="direction" value="3"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="1.1"/>
+   </properties>
+  </object>
+  <object name="Missile" x="800" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="time" value="1"/>
+    <property name="waittime" value="1.1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

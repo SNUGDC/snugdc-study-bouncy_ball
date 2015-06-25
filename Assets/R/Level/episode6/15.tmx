@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXYADsQ+wyg/XpAHI3kloEG7Gj0YADsSFgVjY3MHwXYgSIRalQoMB+m15dI9bR0D0wftvSggsNcYtxDCtDD4hZapVElPHIKeOxmR2PTM/+gxwHM7hgaukOBBLfQMr6wAV8opiQPUgrkGTDTCwD6K8KMNAgAAA==
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="35" height="15">
+  <object name="Star" x="899" y="72" width="32" height="32"/>
+  <object name="Star" x="858" y="84" width="32" height="32"/>
+  <object name="Star" x="762" y="243" width="32" height="32"/>
+  <object name="Star" x="821" y="122" width="32" height="32"/>
+  <object name="Star" x="797" y="162" width="32" height="32"/>
+  <object name="Star" x="777" y="199" width="32" height="32"/>
+  <object name="Kinematic" type="Kinematic" x="1024" y="96" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

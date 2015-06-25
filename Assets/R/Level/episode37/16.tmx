@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="5">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="480"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NggIBIBlQQxUB9EIHE9qPAHHxuQ/cHuSAchzg7A6o//KG0Khl2GOOxAxtQQ+PXkGEnLuCPQxyXG6kFfEhUn8lAub+D8Mgl4JFjR8OkiMlDaTGomBipjh7iAFuaxpXORzrogNLI6acDh1p8AABcHwll3AUAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="3" name="Asteroid" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.5"/>
+    <property name="waittime" value="0.75"/>
+   </properties>
+  </object>
+  <object id="4" name="Asteroid" x="352" y="288" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

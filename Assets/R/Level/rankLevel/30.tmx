@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15" opacity="0.9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGH5AkA52MNHBLiY0GgR8aGBHNJodxAJmKCYGKCDRzAyYegnxSQFMDJj+EURj0yLeyAlDUgA90jW1gS8d7AClE3LChhQ9sDRFqj2kpgmQeli6FyQCMyPZoYBmFgC9fO3r3AUAAA==
+  </data>
+ </layer>
+ <objectgroup color="#ffffff" name="Object Layer 1" width="25" height="15">
+  <object name="Wood" x="576" y="320" width="16" height="128"/>
+  <object name="Wood" x="461" y="290" width="16" height="160"/>
+  <object name="Wood" x="320" y="320" width="16" height="128"/>
+ </objectgroup>
+</map>

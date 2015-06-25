@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9WSzwqAIAzGPfkGnu0gdAkv/SV6hHz/14nAwZCpy5Tog7Fvo/THnBD/kvsawMsFOSdT8c5Uz6EItWRY1gcsO/I6wUJ5rCdzub8dmP/ooO4IFhNEStKH8hnOafWuXMH9FAvUZ0WWrYDFirI59chLwsdyikUQdWvB3soIC+wWR3MFFrz/lLgsYwOWqfCsA3nMrzN92LHYXGwhzxtx3uitFLNvCH8BMuqUpTQIAAA=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="35" height="15" opacity="0.9">
+  <object name="Kinematic" x="32" y="288" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+  <object name="HotBrick" x="640" y="352" width="32" height="32">
+   <properties>
+    <property name="velocity" value="14"/>
+   </properties>
+  </object>
+  <object name="HotBrick" x="832" y="352" width="32" height="32">
+   <properties>
+    <property name="velocity" value="14"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGHzAZ6AdMAoIAnYkDAPyONjYQAwV3ECJGewM2P2gCqXl0fjoNDpQoMAtuIAKEZhaQI8ATcguarqFEKDELQpUdAchu4iRpyagZ3ohxi3kAlB+VGDAnj/p7RYY8EViy2PBpAIlMvSIYcH4AKE8jc08XOYj+xEA+OYoDDQIAAA=
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="35" height="15">
+  <object name="Kinematic" type="Kinematic" x="416" y="256" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+  <object name="Kinematic" type="Kinematic" x="480" y="256" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+  <object name="Kinematic" type="Kinematic" x="544" y="256" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+  <object name="Kinematic" type="Kinematic" x="608" y="256" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

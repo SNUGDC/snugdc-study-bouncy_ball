@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGF5ABYh9sIiBgDQefQ4EaBiQRzIPmx12ULYKDnXEAh40GtkOEG0GZZsAsTnUXaQCkDkw96KHDbIfeEjEyO7Uh7L1GSgLD2xuRwaKJOj1JZIG2RGDx058QJpIrADE6mTYAdILC28GNDYhoIJmJy5AyDxTNPeQE1bEuhmmFjmdI9sBiv94NPXRSPqIjXN099jhcY8OEGuhuY8YjAw08ZhvgEMc3QxccQ8AW8w5cNwFAAA=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Monster" x="736" y="128" width="32" height="32">
+   <properties>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+  <object name="Monster" x="672" y="128" width="32" height="32">
+   <properties>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+  <object name="Monster" x="544" y="128" width="32" height="32">
+   <properties>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+  <object name="Monster" x="480" y="128" width="32" height="32">
+   <properties>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+  <object name="Monster" x="608" y="128" width="32" height="32">
+   <properties>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+  <object name="Missile" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="speed" value="10"/>
+    <property name="time" value="0"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="256" y="64" width="32" height="32">
+   <properties>
+    <property name="speed" value="4"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="512" y="64" width="32" height="32"/>
+  <object name="Asteroid" x="576" y="64" width="32" height="32"/>
+  <object name="Asteroid" x="640" y="64" width="32" height="32"/>
+  <object name="Asteroid" x="704" y="64" width="32" height="32"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGB6AbZjaAeKr0sAeUSQMAio0sAMdwOxQgNK08JcKkj3IbFqC4eovZKCARcyHCH2+JPLp7S9cAN1d5AIFBkgehmEYwCYmyoAKCPEJAQDSjCJq3AUAAA==
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="25" height="15">
+  <object name="Blink" x="352" y="416" width="32" height="32">
+   <properties>
+    <property name="showtime" value="1"/>
+   </properties>
+  </object>
+  <object name="Weak" x="480" y="416" width="32" height="32"/>
+  <object name="Blink" x="224" y="416" width="32" height="32">
+   <properties>
+    <property name="showtime" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

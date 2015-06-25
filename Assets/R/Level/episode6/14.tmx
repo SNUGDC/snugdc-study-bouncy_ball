@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGFzAZ6AdMAqIBtFUUkMuYEfDxKjHBWLQ+LRyN7o9AwnkqaRmKAMVGmMYIDaNjgLCABSOqkSwYeENSsMKBNikxo8iCWrpCdjxsKmV/gC2tMcKNAgAAA==
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="35" height="15">
+  <object name="Star" x="198" y="128" width="32" height="32"/>
+  <object name="Star" x="238" y="139" width="32" height="32"/>
+  <object name="Star" x="279" y="157" width="32" height="32"/>
+  <object name="Star" x="512" y="128" width="32" height="32"/>
+  <object name="Star" x="544" y="128" width="32" height="32"/>
+  <object name="Star" x="576" y="146" width="32" height="32"/>
+  <object name="Star" x="832" y="192" width="32" height="32"/>
+  <object name="Star" x="864" y="192" width="32" height="32"/>
+  <object name="Star" x="898" y="207" width="32" height="32"/>
+  <object name="Star" x="416" y="416" width="32" height="32">
+   <properties>
+    <property name="size" value="16"/>
+   </properties>
+  </object>
+  <object name="Star" x="512" y="416" width="32" height="32">
+   <properties>
+    <property name="size" value="16"/>
+   </properties>
+  </object>
+  <object name="Star" x="544" y="416" width="32" height="32">
+   <properties>
+    <property name="size" value="16"/>
+   </properties>
+  </object>
+  <object name="Star" x="320" y="416" width="32" height="32">
+   <properties>
+    <property name="size" value="16"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

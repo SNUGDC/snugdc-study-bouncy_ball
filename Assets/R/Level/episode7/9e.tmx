@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGD7AZ6AdMEQABxTT0nxaA1rbEY3DDpCYKgMiDAmxkfWpQDEHEk2PsKI3QPaXKpI4iC0PxejiIKBApn0qJLLpYQe+ePXFIY6eXkhhYzMLABXv1rTcBQAA
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="25" height="15">
+  <object name="Asteroid" x="160" y="96" width="32" height="32">
+   <properties>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="544" y="128" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="speed" value="4"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="448" y="96" width="32" height="32">
+   <properties>
+    <property name="speed" value="4"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="352" y="64" width="32" height="32">
+   <properties>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

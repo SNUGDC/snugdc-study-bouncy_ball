@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC62U6wrCMAyF86tv0N/iGIgoqDgvIIgPoE/g5f0fQwYNhLTZkqYHwnpKT/qNdusBoHcUlacP7fcEu8bsiXmtboVemP9WsnwqWUq9vPkX8xfi30KuNI8sIdVCyRAnWKg2Qr40jyxD8kslC81zlsNMJgpjfkbW80IWLE0+COMWLOBg4b2s+3cTLDFfnuk4w7Ji3vJvoyya95L6tfimR92Zt+Z/DVkelSyozsAi3QPpzLi2ij0oSxCeZ8jv/o7tfSUe167Tc6/goCyeCqS8vf6a32HwNAgAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="35" height="15">
+  <object name="Asteroid" x="160" y="320" width="32" height="32"/>
+  <object name="Asteroid" x="224" y="320" width="32" height="32"/>
+  <object name="Asteroid" x="96" y="320" width="32" height="32"/>
+  <object name="Asteroid" x="576" y="320" width="32" height="32">
+   <properties>
+    <property name="speed" value="0.5"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="512" y="288" width="32" height="32">
+   <properties>
+    <property name="speed" value="0.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

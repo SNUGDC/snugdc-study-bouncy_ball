@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15" opacity="0.9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAUgIAilfWhoBxMNzUYHzDQ0GxZW9PQPLYEvhfpV0GhsZpIbVvJArIwDg8wURMLUBNEMqP6hFCjikfNFo2kBmNDokQAAeYEzYdwFAAA=
+  </data>
+ </layer>
+ <objectgroup color="#ffffff" name="Object Layer 1" width="25" height="15">
+  <object name="Blink" x="512" y="192" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1.2"/>
+   </properties>
+  </object>
+  <object name="Blink" x="512" y="224" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1.2"/>
+   </properties>
+  </object>
+  <object name="Blink" x="512" y="256" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="1.2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

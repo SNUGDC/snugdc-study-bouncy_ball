@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXYgAoSpqUdplS0QxWHHZT6w5wCvehAHomtSCUzY8iQh7lDCYc4OnDHIoYctuoE3EAOQLbTiES9uPyBDfiRaDYMRGMR80Fiw9zvh0aTApD9YYZF3h3NXHLsUCMgT4wdIgTMMMYixgrFMKBAwA5YHjZhwJ6fWdH4ABogFobcBQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="RedBlink" x="480" y="256" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="480" y="288" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="2"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="480" y="352" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="480" y="320" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="1"/>
+   </properties>
+  </object>
+  <object name="RedBlink" x="480" y="384" width="32" height="32">
+   <properties>
+    <property name="hidetime" value="2"/>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

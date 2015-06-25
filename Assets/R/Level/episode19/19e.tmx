@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+VTSQqAMAzMqT/wrAeXowguH/AofUH//w4ptBCHBBM8OhBqmnGyUSIbeiPvD+CzCEJ8NmpI5qkhW1Lqqn6uJbKavHuUNNGP5TsqHMRCz575DJMjR+Vp8z7KuYJmC37NuZVYFDgZnaEPbR8dcCfy77xqtuAnhav97+FI+/iKQM+6pVkjrnJOSpzf43sa2L0V50s8a+1MczTkCMwswD4aQw6e6wZ+6WiN3AUAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Blink" type="Brick" x="576" y="352" width="32" height="32">
+   <properties>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="1"/>
+   </properties>
+  </object>
+  <object name="Blink" type="Brick" x="512" y="320" width="32" height="32">
+   <properties>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Blink" type="Brick" x="640" y="384" width="32" height="32">
+   <properties>
+    <property name="showtime" value="1"/>
+    <property name="waittime" value="0.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

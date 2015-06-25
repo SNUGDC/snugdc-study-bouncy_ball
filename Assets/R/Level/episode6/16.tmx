@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjABVEQ2m9AXUFBLDjkVNBwwMJQPb7YhGXx4MJASUi7UX2uwLD4AqXgQYxeOQUyDDPh0x3gAC+tDwKEECBAr3sSJhSgGwWobJQD4e96HkYXY08HrnBALD5GwDPoutMNAgAAA==
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="35" height="15">
+  <object name="Kinematic" type="Kinematic" x="128" y="416" width="32" height="32"/>
+  <object name="Kinematic" type="Kinematic" x="960" y="128" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

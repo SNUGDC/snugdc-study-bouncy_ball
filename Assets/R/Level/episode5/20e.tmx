@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWEgM8A2BlNY7PYoJhagA0N0xsoDICdQxkoDLQDhhhQoJM91MxHAO6YTAHcBQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Star" x="414" y="188" width="32" height="32"/>
+  <object name="Star" x="524" y="112" width="32" height="32"/>
+  <object name="Star" x="247" y="96" width="32" height="32"/>
+  <object name="Star" x="371" y="239" width="32" height="32"/>
+  <object name="Star" x="333" y="298" width="32" height="32"/>
+  <object name="Star" x="297" y="137" width="32" height="32"/>
+  <object name="Star" x="466" y="150" width="32" height="32"/>
+  <object name="Star" x="306" y="365" width="32" height="32"/>
+ </objectgroup>
+</map>

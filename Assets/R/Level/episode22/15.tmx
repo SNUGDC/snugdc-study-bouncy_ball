@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+NhYGDgoQOGARUopiagpx2KOOTj0fimUNqPSBrZDnR7Yf4xgmJ0II0HI9shjWaHPBQzMGCGmTwS2x2LnfgANn/EENBDjB24wkodSusS0E9MmiAUH4QANcIKBPCFF7lhZYIkBgorYzz6sYWVHxJG51MjrPywqsJuB77w8cFhByHzke1QY0DNAzZ47CNkPrId0Qyo5SJyXiVUdhIC6kg0SB8AK2lvWdwFAAA=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Monster" x="128" y="96" width="32" height="32">
+   <properties>
+    <property name="speed" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

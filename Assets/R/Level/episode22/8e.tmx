@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGB7ACIhN0cRs0fh6dHKLEh45eTQanY0M/KC0NJIYDxpNyAwYcENT54cmDwo/cwJmEAvQ3YJuFzUBNrN5GFDDR5WGduECxNipTqbZpAB1LGL0jg9KgQ+ZdsUgsdVwqMEWPsSYDQIGQKxJhDqQHbA06YBF3gRKo+dpbOUVuhps8mYMkDIDALIbR17cBQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Monster" x="448" y="96" width="32" height="32">
+   <properties>
+    <property name="speed" value="0"/>
+   </properties>
+  </object>
+  <object name="Kinematic" x="288" y="352" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

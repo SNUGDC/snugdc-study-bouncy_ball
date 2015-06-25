@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXUBqoU6vehiitQgTwNzKQE6NFILT0AJxImB0RT0S2UAoWBdgAeoDbQDkAC5Mb1KCAdcKKxKclrpAI/EtVjcx8+NjF+obefSbUXAHaHsCY0CAAA
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity" width="35" height="15">
+  <object name="Star" x="256" y="160" width="32" height="32"/>
+  <object name="Star" x="224" y="160" width="32" height="32"/>
+  <object name="Star" x="192" y="160" width="32" height="32"/>
+  <object name="Star" x="129" y="193" width="32" height="32"/>
+  <object name="Star" x="161" y="175" width="32" height="32"/>
+  <object name="Star" x="65" y="236" width="32" height="32"/>
+  <object name="Star" x="97" y="211" width="32" height="32"/>
+  <object name="Dagger" x="544" y="416" width="32" height="32">
+   <properties>
+    <property name="speed" value="4"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="864" y="320" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Dagger" x="128" y="384" width="96" height="32">
+   <properties>
+    <property name="speed" value="5"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="288" y="256" width="32" height="32"/>
+  <object name="Asteroid" x="352" y="256" width="32" height="32"/>
+  <object name="Asteroid" x="800" y="320" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="832" y="320" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.5"/>
+   </properties>
+  </object>
+  <object name="Kinematic" type="Kinematic" x="608" y="128" width="32" height="32"/>
+ </objectgroup>
+</map>

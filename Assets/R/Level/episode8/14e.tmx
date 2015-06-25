@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="480"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGDyAE0r7DKgrIICTsBKigSqF+qnpFmoATiSsR6ZeWgAVEjEMKACxPI3cRCoAuYueblHCIwdyixqUHU1FOyXQ+MSkCVi4wNTiiktSATlpkRj7yEnntHILOsAX58hAAY1Py7wLA75QWhGHPDb7aeUmfP5VIFEvMhvmNz8kTAyf2kAC6i7k/IjOZ8AiDwCpkVr8NAgAAA==
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="physicsEntity">
+  <object name="Dagger" x="480" y="416" width="64" height="32">
+   <properties>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="768" y="96" width="32" height="32">
+   <properties>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+  <object name="Dagger" x="320" y="352" width="64" height="32">
+   <properties>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+  <object name="Asteroid" x="704" y="96" width="32" height="32">
+   <properties>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+  <object name="Kinematic" type="Kinematic" x="160" y="128" width="64" height="32"/>
+ </objectgroup>
+</map>

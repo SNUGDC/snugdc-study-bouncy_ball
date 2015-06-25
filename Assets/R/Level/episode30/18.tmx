@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="480"/>
+ </tileset>
+ <layer name="map" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGN4gEotYFJQ2QqNpDTKhtB8aHxtQROOrofFNqOIi8oAfDnoggAIFepWgNDHxAQLY0hIyCKfALZSAwRIf6hTqx5c/fJDYPFBaHojN8ZiXTaS9ulA6AUqbEakP5hZpAmpMkdTCMDKIIMIeYyA2gLIN8ClEAgCI5lj/3AUAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="25" height="15">
+  <object name="Missile" x="64" y="416" width="32" height="32">
+   <properties>
+    <property name="direction" value="4"/>
+    <property name="speed" value="2"/>
+    <property name="time" value="0"/>
+   </properties>
+  </object>
+  <object name="DaggerKinematic" x="416" y="192" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+  <object name="DaggerKinematic" x="480" y="192" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+  <object name="DaggerKinematic" x="416" y="352" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+  <object name="DaggerKinematic" x="480" y="352" width="32" height="32">
+   <properties>
+    <property name="direction" value="vertical"/>
+    <property name="speed" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="ad" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="map_tiles" tilewidth="32" tileheight="32">
+  <image source="../../img/map_tiles.png" width="480" height="320"/>
+ </tileset>
+ <layer name="map" width="35" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWDEShR0SxfIFZBogca4HOLPBJblwQzfWjgFmKBAgV6kcFAx40CEAtDMbXdwgLFMKBNgl6YW5D1q6Op8cWhV4EEe0hxC77wEaaynbgAMW6hN8DnFlxxBAMKVHRHDMPAxRELGo2eVnEBRSxigyVuFZDYAO9iZAc0CAAA
+  </data>
+ </layer>
+ <objectgroup color="#ff0000" name="physicsEntity" width="35" height="15">
+  <object name="Asteroid" x="1056" y="32" width="32" height="32">
+   <properties>
+    <property name="speed" value="1.2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
