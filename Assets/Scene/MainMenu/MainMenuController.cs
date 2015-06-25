@@ -35,6 +35,14 @@ namespace BB
 			}
 		}
 
+		private void Update()
+		{
+			if (Input.GetKeyDown(KeyCode.Escape))
+			{
+				Back();
+			}
+		}
+
 		private bool CheckTransfer(State state)
 		{
 			if (_state != State.MainMenu)
@@ -71,14 +79,21 @@ namespace BB
 
 		public void Back()
 		{
-			if (_state != State.Play)
+			if (_state == State.MainMenu)
 			{
-				Debug.LogWarning("Cannot back from except Play.");
-				return;
+				Application.Quit();
 			}
+			else
+			{
+				if (_state != State.Play)
+				{
+					Debug.LogWarning("Cannot back from except Play.");
+					return;
+				}
 
-			_state = State.MainMenu;
-			_animator.SetTrigger("Back");
+				_state = State.MainMenu;
+				_animator.SetTrigger("Back");
+			}
 		}
 
 	}
