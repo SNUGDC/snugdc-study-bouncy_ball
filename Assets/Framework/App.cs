@@ -4,13 +4,27 @@ namespace BB
 {
 	public class App : MonoBehaviour
 	{
+		private static bool _init;
+
 		[SerializeField]
 		private DB _db;
 
-		private void Awake()
+		[SerializeField] 
+		private BlockDB _blockDB;
+
+		void Awake()
 		{
-			_db.Initialize();
-			DB._ = _db;
+			Init();
+		}
+
+		void Init()
+		{
+			if (_init)
+				return;
+
+			_init = true;
+			DB.Init(_db);
+			BlockDB.Init(_blockDB);
 		}
 	}
 }

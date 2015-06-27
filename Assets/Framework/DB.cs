@@ -6,7 +6,7 @@ namespace BB
 {
 	public class DB : MonoBehaviour
 	{
-		public static DB _;
+		public static DB _ { get; private set; }
 
 		[Serializable]
 		public struct SE_
@@ -36,7 +36,13 @@ namespace BB
 
 		public List<World_> World;
 
-		public void Initialize()
+		public static void Init(DB obj)
+		{
+			_ = obj;
+			_.Init();
+		}
+
+		private void Init()
 		{
 			int i = 0;
 			foreach (var world in World)
