@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5ca5601a2fe0344bf08662f2c023ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _data: {fileID: 0}
+  _data: {fileID: 11400000, guid: eee5e2cefbb2bc043b736938a493b990, type: 2}
 --- !u!212 &21278946
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -150,6 +150,11 @@ Prefab:
       propertyPath: m_Size.y
       value: .150000006
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _data
+      value: 
+      objectReference: {fileID: 11400000, guid: eee5e2cefbb2bc043b736938a493b990,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 115952}
