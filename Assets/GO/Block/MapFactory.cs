@@ -16,7 +16,7 @@ namespace BB
 			return go.GetComponent<Star>();
 		}
 
-		public static Block Instantiate(BlockType type, Coor position, Transform parent)
+		public static Block Instantiate(BlockType type, Coor position)
 		{
 			var data = BlockDB._.Find(type);
 			if (data == null)
@@ -26,8 +26,6 @@ namespace BB
 			}
 
 			var obj = (GameObject)GameObject.Instantiate(data.Prefab.gameObject, position.ToVector2(), Quaternion.identity);
-			obj.transform.SetParent(parent, false);
-			obj.transform.localPosition = position.ToVector2();
 			return obj.GetComponent<Block>();
 		}
 	}

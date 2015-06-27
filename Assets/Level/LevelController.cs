@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace BB
 {
@@ -18,6 +19,10 @@ namespace BB
 
 		private Ball _ball;
 
+		private HashSet<Star> _starsLeft;
+
+		private bool _getStarRegistered;
+
 		void Start()
 		{
 			if (LevelDef != null)
@@ -29,10 +34,18 @@ namespace BB
 			}
 		}
 
+		void OnDestory()
+		{
+			UnregisterGetStar();
+		}
+
 		void Update()
 		{
 			if (Input.GetKeyDown(KeyCode.Escape))
 				OnEscapeKeyDown();
+
+			if (_ball && _ball.transform.localPosition.y < 0)
+				Lose();
 		}
 
 		void OnEscapeKeyDown()
@@ -51,7 +64,51 @@ namespace BB
 
 			_levelDef = def;
 			_map = MapGenerator.Generate(def);
+			_starsLeft = new HashSet<Star>(_map.Stars);
+			Star.OnGetStar += OnGetStar;
+			_getStarRegistered = true;
+
 			_ball = MapFactory.InstantiateBall(_map.StartPoisition);
+			_ball.transform.SetParent(transform, false);
+			var ballController = _ball.gameObject.AddComponent<BallController>();
+			ballController.Ball = _ball;
+		}
+
+		private void Win()
+		{
+			Debug.Assert(_starsLeft.Count == 0);
+
+			UnregisterGetStar();
+
+			var nextLevel = _levelDef.Next();
+			if (nextLevel.HasValue)
+				TransitionManager.TransferToLevel(nextLevel.Value);
+			else
+				TransitionManager.TransferToLevelSelect(new LevelSelectController.TransitionData(_levelDef.World));
+		}
+
+		private void Lose()
+		{
+			UnregisterGetStar();
+			TransitionManager.TransferToLevel(_levelDef);
+		}
+
+		private void UnregisterGetStar()
+		{
+			if (_getStarRegistered)
+			{
+				Star.OnGetStar -= OnGetStar;
+				_getStarRegistered = false;
+			}
+		}
+
+		private void OnGetStar(Star star)
+		{
+			if (!_starsLeft.Remove(star))
+				Debug.LogError("get unmanaged star.");
+
+			if (_starsLeft.Count == 0)
+				Win();
 		}
 	}
 }

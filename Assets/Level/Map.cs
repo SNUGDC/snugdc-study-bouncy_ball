@@ -59,7 +59,7 @@ namespace BB
 						var gid = MapHelper.MapGidToBlockType(tile.Gid);
 						if (gid.HasValue)
 						{
-							var block = MapFactory.Instantiate(gid.Value, coor, transform);
+							var block = MapFactory.Instantiate(gid.Value, coor);
 							go = block.gameObject;
 						}
 						break;
@@ -68,7 +68,7 @@ namespace BB
 
 				if (go != null)
 				{
-					go.transform.localPosition = coor.ToVector2();
+					go.transform.SetParent(transform, false);
 				}
 			}
 		}

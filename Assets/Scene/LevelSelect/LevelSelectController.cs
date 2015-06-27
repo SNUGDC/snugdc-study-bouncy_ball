@@ -5,7 +5,6 @@ namespace BB
 {
 	public class LevelSelectController : MonoBehaviour
 	{
-		private const int LevelMax = 21;
 		private const int ButtonColumn = 7;
 
 		private const int ButtonSize = 64;
@@ -72,7 +71,7 @@ namespace BB
 
 		private void SpawnLevels()
 		{
-			for (int i = 0; i != LevelMax; ++i)
+			for (int i = 0; i != (int)Const.LevelMax; ++i)
 			{
 				var go = Instantiate(_levelButtonPrf.gameObject);
 				go.transform.SetParent(_levelsRoot, false);

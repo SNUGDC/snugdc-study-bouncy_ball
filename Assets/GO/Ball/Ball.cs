@@ -6,6 +6,7 @@ namespace BB
 	{
 		private const float JumpDelay = 0.5f;
 		private const float JumpVelocityY = 4;
+		private const float DragX = 2;
 
 		[SerializeField]
 		private Rigidbody2D _rigidbody;
@@ -17,6 +18,10 @@ namespace BB
 		void Update()
 		{
 			_jumpElapsed += Time.deltaTime;
+
+			var velocity = _rigidbody.velocity;
+			velocity.x = Mathf.Lerp(velocity.x, 0, Time.deltaTime * DragX);
+			_rigidbody.velocity = velocity;
 		}
 
 		public void Jump()

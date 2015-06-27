@@ -24,6 +24,17 @@ namespace BB
 			Level = level;
 			Difficulty = difficulty;
 		}
+
+		public LevelDef? Next()
+		{
+			if (Level < Const.LevelMax)
+				return new LevelDef(World, Level + 1, Difficulty);
+
+			if (World < Const.WorldMax)
+				return new LevelDef(World + 1, (Level) 1, Difficulty);
+
+			return null;
+		}
 	}
 
 	public static class TypeHelper
