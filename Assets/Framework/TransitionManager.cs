@@ -22,9 +22,9 @@ namespace BB
 			Application.LoadLevel("LevelSelect");
 		}
 
-		public static void TransferToLevel(LevelController.TransitionData data)
+		public static void TransferToLevel(LevelDef def)
 		{
-			LevelController.TransitionData_ = data;
+			LevelController.LevelDef = def;
 			Application.LoadLevel("Level");
 		}
 	}

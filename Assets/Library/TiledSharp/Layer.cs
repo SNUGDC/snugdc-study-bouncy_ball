@@ -20,7 +20,6 @@ namespace TiledSharp
 
         public TmxLayer(XElement xLayer, int width, int height)
         {
-			/*
             Name = (string)xLayer.Attribute("name");
             Opacity = (double?)xLayer.Attribute("opacity") ?? 1.0;
             Visible = (bool?)xLayer.Attribute("visible") ?? true;
@@ -31,7 +30,7 @@ namespace TiledSharp
             Tiles = new List<TmxLayerTile>();
             if (encoding == "base64")
             {
-                var decodedStream = new TmxBase64Data(xData);
+                var decodedStream = new Base64Data(xData);
                 var stream = decodedStream.Data;
 
                 using (var br = new BinaryReader(stream))
@@ -67,7 +66,6 @@ namespace TiledSharp
             else throw new Exception("TmxLayer: Unknown encoding.");
 
             Properties = new PropertyDict(xLayer.Element("properties"));
-			*/
         }
     }
 

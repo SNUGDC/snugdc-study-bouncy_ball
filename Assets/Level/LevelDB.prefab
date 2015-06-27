@@ -1,47 +1,46 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &121616
+--- !u!1 &152394
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 472652}
-  - 114: {fileID: 11439108}
+  - 4: {fileID: 424128}
+  - 114: {fileID: 11488600}
   m_Layer: 0
-  m_Name: App
+  m_Name: LevelDB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &472652
+  m_IsActive: 0
+--- !u!4 &424128
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 121616}
+  m_GameObject: {fileID: 152394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11439108
+--- !u!114 &11488600
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 121616}
+  m_GameObject: {fileID: 152394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03da220cf3b0be44db22282ef6966f8e, type: 3}
+  m_Script: {fileID: 11500000, guid: d5d5067bc4b0bab449e1f8d6f06a8f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _db: {fileID: 11485670, guid: 8f83be246440417428dc4e8c47d547bf, type: 2}
-  _levelDB: {fileID: 11488600, guid: c2133f2bef3939f409d6dfd86c3b03cf, type: 2}
-  _blockDB: {fileID: 11429342, guid: 8d878f17c5b097e43b4e6df6880c2fb1, type: 2}
+  Ball: {fileID: 11434722, guid: e0320825324dd044b8afa840b542fa19, type: 2}
+  Star: {fileID: 11431874, guid: 0ce9e8e63297141469c490cf8204fead, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -50,21 +49,29 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
-      propertyPath: _db
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: star
       value: 
-      objectReference: {fileID: 11485670, guid: 8f83be246440417428dc4e8c47d547bf,
+      objectReference: {fileID: 11431874, guid: 0ce9e8e63297141469c490cf8204fead,
         type: 2}
     - target: {fileID: 0}
-      propertyPath: _blockDB
+      propertyPath: Star
       value: 
-      objectReference: {fileID: 11429342, guid: 8d878f17c5b097e43b4e6df6880c2fb1,
+      objectReference: {fileID: 11431874, guid: 0ce9e8e63297141469c490cf8204fead,
         type: 2}
     - target: {fileID: 0}
-      propertyPath: _levelDB
+      propertyPath: Ball
       value: 
-      objectReference: {fileID: 11488600, guid: c2133f2bef3939f409d6dfd86c3b03cf,
+      objectReference: {fileID: 11434722, guid: e0320825324dd044b8afa840b542fa19,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 121616}
+  m_RootGameObject: {fileID: 152394}
   m_IsPrefabParent: 1

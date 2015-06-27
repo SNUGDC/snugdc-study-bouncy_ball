@@ -1,4 +1,6 @@
-﻿namespace BB
+﻿using UnityEngine;
+
+namespace BB
 {
 	public enum BlockType
 	{

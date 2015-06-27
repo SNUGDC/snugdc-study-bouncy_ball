@@ -117,8 +117,8 @@ namespace BB
 			if (!_selectedButton)
 				return;
 
-			var transition = new LevelController.TransitionData(World, _selectedButton.Level, difficulty);
-			TransitionManager.TransferToLevel(transition);
+			var def = new LevelDef(World, _selectedButton.Level, difficulty);
+			TransitionManager.TransferToLevel(def);
 		}
 	}
 }

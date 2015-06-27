@@ -12,6 +12,20 @@ namespace BB
 		Easy, Hard,
 	}
 
+	public struct LevelDef
+	{
+		public WorldType World;
+		public Level Level;
+		public Difficulty Difficulty;
+
+		public LevelDef(WorldType world, Level level, Difficulty difficulty)
+		{
+			World = world;
+			Level = level;
+			Difficulty = difficulty;
+		}
+	}
+
 	public static class TypeHelper
 	{
 		public static WorldType MakeWorldTypeFromIndex(int idx)
@@ -32,6 +46,11 @@ namespace BB
 		public static Level MakeLevelFromIndex(int idx)
 		{
 			return (Level)(idx + 1);
+		}
+
+		public static int ToNumber(this Level thiz)
+		{
+			return (int)thiz;
 		}
 	}
 }
