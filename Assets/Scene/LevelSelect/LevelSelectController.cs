@@ -78,8 +78,34 @@ namespace BB
 				go.transform.localPosition = Locate(i);
 
 				var button = go.GetComponent<LevelButton>();
-				button.SetLevel(TypeHelper.MakeLevelFromIndex(i));
+				InitLevelButton(button, TypeHelper.MakeLevelFromIndex(i));
 				button.OnSelectedCallback += OnLevelSelected;
+			}
+		}
+
+		private void InitLevelButton(LevelButton button, Level level)
+		{
+			button.SetLevel(level);
+
+			var clearState = UserLevelClear.Get(World, level);
+			if (clearState.HasValue)
+			{
+				button.SetAsClear(clearState.Value);
+			}
+			else
+			{
+				var unlocked = UserLevelClear.Unlocked;
+				var shouldLock = true;
+
+				if (unlocked.HasValue)
+				{
+					var unlockedValue = unlocked.Value;
+					var isCurrentUnlocked = unlockedValue.World == World && unlockedValue.Level == level;
+					shouldLock = !isCurrentUnlocked;
+				}
+
+				button.SetLock(shouldLock);
+				button.SetAsNotCleared();
 			}
 		}
 

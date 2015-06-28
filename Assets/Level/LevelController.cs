@@ -34,7 +34,7 @@ namespace BB
 			}
 		}
 
-		void OnDestory()
+		void OnDestroy()
 		{
 			UnregisterGetStar();
 		}
@@ -79,6 +79,8 @@ namespace BB
 			Debug.Assert(_starsLeft.Count == 0);
 
 			UnregisterGetStar();
+
+			UserLevelClear.Win(_levelDef);
 
 			var nextLevel = _levelDef.Next();
 			if (nextLevel.HasValue)

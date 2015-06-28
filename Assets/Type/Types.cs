@@ -12,6 +12,12 @@ namespace BB
 		Easy, Hard,
 	}
 
+	[Serializable]
+	public enum LevelClearState
+	{
+		Easy, Hard, Perfect,
+	}
+
 	public struct LevelDef
 	{
 		public WorldType World;

@@ -39,15 +39,15 @@ namespace BB
 			_clearText.text = "";
 		}
 
-		public void SetAsClear(Difficulty difficulty)
+		public void SetAsClear(LevelClearState clearState)
 		{
-			_clearText.text = difficulty.ToString();
+			_clearText.text = clearState.ToString();
 		}
 
 		public void SetLock(bool val)
 		{
-			_levelText.gameObject.SetActive(false);
-			_clearText.gameObject.SetActive(false);
+			_levelText.gameObject.SetActive(!val);
+			_clearText.gameObject.SetActive(!val);
 			_lock.gameObject.SetActive(val);
 		}
 
